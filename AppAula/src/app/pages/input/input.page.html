@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Página de Input</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Default Input -->
+  <ion-input></ion-input>
+
+  <!-- Input com valor -->
+  <ion-input value="teste"></ion-input>
+
+  <!-- Input with placeholder -->
+  <ion-input placeholder="Digite um Texto"></ion-input>
+
+  <!-- Input com botão para limpar texto -->
+  <ion-input clearInput value="Limpar texto"></ion-input>
+
+  <!-- Input para tipos numéricos -->
+  <ion-input type="number" value="333"></ion-input>
+
+  <!-- Input desabilitado-->
+  <ion-input value="Desabilitado" disabled></ion-input>
+
+  <!-- Input apenas para leitura-->
+  <ion-input value="Somente Leitura" readonly></ion-input>
+
+  <!-- Input para senhas-->
+  <ion-input type="password" placeholder="Cadastre a senha"></ion-input>
+
+  <!------------------------------------------------------------------------->
+  <!-- Item Labels -->
+  <ion-item>
+   <ion-label>Texto Padrão</ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Texto flutuando</ion-label>
+    <ion-input></ion-input>
+   </ion-item>
+
+  <ion-item>
+    <ion-label position="fixed">Texto Fixo</ion-label>
+    <ion-input></ion-input>
+   </ion-item>
+
+  <ion-item>
+   <ion-label position="sacked ">Texto Superior</ion-label>
+   <ion-input></ion-input>
+  </ion-item>
+</ion-content>
